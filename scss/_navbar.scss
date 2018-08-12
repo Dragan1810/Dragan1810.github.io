@@ -1,7 +1,7 @@
 // Styling for the navbar
 #mainNav {
-  padding-top: 1rem;
-  padding-bottom: 1rem;
+  padding-top: 0.7rem;
+  padding-bottom: 0.7rem;
   @include heading-font;
   .navbar-brand {
     color: $white;
@@ -30,7 +30,7 @@
     padding: 0.8rem;
   }
 }
-@media(min-width:992px) {
+@media (min-width: 992px) {
   #mainNav {
     padding-top: 1.5rem;
     padding-bottom: 1.5rem;
